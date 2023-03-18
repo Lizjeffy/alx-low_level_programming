@@ -17,7 +17,7 @@ int main(void)
 		{
 			if (y > x && y != x)
 			{
-				putchar(y + '0');
+				putchar(x + '0');
 				putchar(y + '0');
 				if (x + y < 17)
 				{
