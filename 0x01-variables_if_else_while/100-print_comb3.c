@@ -13,18 +13,18 @@ int main(void)
 
 	for (x = 0 ; x < 9 ; x++)
 	{
-		putchar(x + '0');
-	}
-	for (y = 1 ; y < 10 ; y++)
-	{
-		if (y > x && y != x)
+		for (y = 1 ; y < 10 ; y++)
 		{
-			putchar(y + '0');
-		}
-		if (x + y < 17)
-		{
-			putchar(',');
-			putchar(' ');
+			if (y > x && y != x)
+			{
+				putchar(y + '0');
+				putchar(y + '0');
+				if (x + y < 17)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
 		}
 	}
 	putchar('\n');
