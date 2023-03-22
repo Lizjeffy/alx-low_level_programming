@@ -23,7 +23,7 @@ void print_to_98(int n)
 		}
 		printf("\n");
 	}
-	else if (n == 0)
+	else if (n < 0)
 	{
 		for (x = n ; x <= 98 ; x++)
 		{
