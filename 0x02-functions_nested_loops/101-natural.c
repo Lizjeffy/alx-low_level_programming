@@ -19,6 +19,6 @@ int main(void)
 			j = j + i;
 		}
 	}
-	printf("%d.\n", j);
+	printf("%d\n", j);
 	return (0);
 }
