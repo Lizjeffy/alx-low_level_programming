@@ -21,6 +21,6 @@ void rev_string(char *s)
 	}
 	for (a = length - 1 ; a >= 0 ; a--)
 	{
-		revstr[a] = s[a];
+		revstr[length] = s[a];
 	}
 }
