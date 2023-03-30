@@ -26,4 +26,4 @@ int main(void)
 	printf("------------------------------------\n");
 	printf("%s", s);
 	return (0);
-}i
+}
