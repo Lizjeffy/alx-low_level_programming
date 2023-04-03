@@ -17,10 +17,6 @@ char *_strchr(char *s, char c)
 		{
 			return (&s[x]);
 		}
-		else
-		{
-			return ("null");
-		}
 	}
 	return (0);
 }
