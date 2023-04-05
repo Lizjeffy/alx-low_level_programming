@@ -23,7 +23,7 @@ int check_for_prime(int n, int x)
 		return (0);
 	else if (n % x == 0 && x > 1)
 		return (0);
-	else if ((n / x) < x )
+	else if ((n / x) < x)
 		return (1);
 	else
 		return (check_for_prime(n, x + 1));
