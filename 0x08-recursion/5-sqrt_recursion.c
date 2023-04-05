@@ -17,7 +17,6 @@ int _sqrt_recursion(int n)
  * @x: base
  * Return: square root of n\
  */
-
 int _sqrt(int n, int x)
 {
 	int square = x * x;
