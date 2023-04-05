@@ -14,9 +14,13 @@ int is_palindrome(char *s)
 	{
 		return (1);
 	}
-	else if (s[0] != s[len - 1])
+	else if (s[1] != s[len -2])
 	{
-		return (is_palindrome(s + 1));
+		return (0);
+	}
+	else if (s[0] == s[len])
+	{
+		return (is_palindrome(s));
 	}
 	return (1);
 }
