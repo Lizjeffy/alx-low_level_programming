@@ -22,5 +22,6 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 		if (cu & 1)
 			num++;
 	}
+	x--;
 	return (num);
 }
