@@ -20,7 +20,7 @@ unsigned int binary_to_uint(const char *b)
 	{
 		if (b[x] < '0' || b[x] > '1')
 			return (0);
-		dec_num = (2 * dec_num) + (b[x] - '0');
+		dec_num = 2 * dec_num + (b[x] - '0');
 	}
 	x++;
 	return (dec_num);
